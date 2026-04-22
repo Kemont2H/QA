@@ -1,0 +1,61 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic:
+        - link "conduit" [ref=e5]:
+          - /url: "#/"
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link " Source code" [ref=e8]:
+              - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+              - generic [ref=e9]: 
+              - text: Source code
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link " Home" [ref=e12]:
+              - /url: "#/"
+              - generic [ref=e13]: 
+              - text: Home
+          - listitem [ref=e14]:
+            - link " Login" [ref=e15]:
+              - /url: "#/login"
+              - generic [ref=e16]: 
+              - text: Login
+          - listitem [ref=e17]:
+            - link "Sign up" [ref=e18]:
+              - /url: "#/register"
+  - main [ref=e19]:
+    - generic [ref=e23]:
+      - heading "Sign up" [level=1] [ref=e24]
+      - paragraph [ref=e25]:
+        - link "Sign in to your account" [ref=e26]:
+          - /url: "#/login"
+      - list [ref=e27]:
+        - listitem [ref=e28]: Email already exists.. try logging in
+      - generic [ref=e29]:
+        - group [ref=e30]:
+          - textbox "Your Name" [ref=e31]: Vidal
+        - group [ref=e32]:
+          - textbox "Email" [ref=e33]: Kelsie58@yahoo.com
+        - group [ref=e34]:
+          - textbox "Password" [ref=e35]: 1IYyYgph1a9Lw9y
+        - button "Sign up" [ref=e36] [cursor=pointer]
+  - contentinfo [ref=e37]:
+    - generic [ref=e38]:
+      - link "conduit" [ref=e39]:
+        - /url: "#/"
+      - generic [ref=e40]:
+        - text: An interactive learning project from
+        - link "Thinkster" [ref=e41]:
+          - /url: https://thinkster.io
+        - text: . Code & design licensed under MIT.
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link " Source code" [ref=e44]:
+            - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+            - generic [ref=e45]: 
+            - text: Source code
+```

@@ -1,0 +1,20 @@
+{
+  connection: 'keep-alive',
+  'access-control-allow-credentials': 'true',
+  'access-control-allow-headers': '*',
+  'access-control-allow-methods': '*',
+  'access-control-allow-origin': '*',
+  'access-control-expose-headers': '*',
+  'content-type': 'application/json',
+  date: 'Fri, 10 Apr 2026 04:04:17 GMT',
+  server: 'railway-edge',
+  'x-challenger': 'UNKNOWN CHALLENGER - Challenger not found',
+  'x-railway-edge': 'railway/europe-west4-drams3a',
+  'x-railway-request-id': 'LzBIwENyQ62P7FM5ALIuDA',
+  'x-robots-tag': 'noindex',
+  'x-railway-cdn-edge': 'fastly/cache-fra-eddf8230203-FRA',
+  'x-cache': 'MISS',
+  'x-cache-hits': '0',
+  'x-served-by': 'cache-fra-eddf8230203-FRA',
+  'transfer-encoding': 'chunked'
+}

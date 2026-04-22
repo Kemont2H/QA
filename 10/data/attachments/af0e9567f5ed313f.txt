@@ -1,0 +1,3 @@
+{ info: { name: 'Belka', age: 3 }, role: 'admin' }
+undefined
+undefined

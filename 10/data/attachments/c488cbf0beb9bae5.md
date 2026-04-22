@@ -1,0 +1,128 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "conduit" [ref=e6]:
+          - /url: "#/"
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Source code" [ref=e9]:
+              - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+              - text: Source code
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "Home" [ref=e12]:
+              - /url: "#/"
+              - text: Home
+          - listitem [ref=e13]:
+            - link "Login" [ref=e14]:
+              - /url: "#/login"
+              - text: Login
+          - listitem [ref=e15]:
+            - link "Sign up" [ref=e16]:
+              - /url: "#/register"
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - heading "conduit" [level=1] [ref=e21]
+        - paragraph [ref=e22]: A place to share your knowledge.
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - list [ref=e27]:
+            - listitem [ref=e28]:
+              - button "Global Feed" [ref=e29]
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - link "Fusion" [ref=e32]:
+                - /url: "#/profile/Fusion"
+                - img "Fusion" [ref=e33]
+              - generic [ref=e34]:
+                - link "Fusion" [ref=e35]:
+                  - /url: "#/profile/Fusion"
+                - text: April 7, 2026
+              - button "( 0 )" [ref=e36]:
+                - generic [ref=e37]: ( 0 )
+            - link "Suppono dolorem umbra vulnero nihil tripudio audio auctor. Attonbitus sit odio caput quod ater comes talus. Ducimus carbo creo conspergo adsuesco tremo asporto sunt summisse caterva. Socius stipes vel. Read more... cur" [ref=e38]:
+              - /url: "#/article/suppono-dolorem-umbra-vulnero-nihil-tripudio-audio-auctor-"
+              - heading "Suppono dolorem umbra vulnero nihil tripudio audio auctor." [level=1] [ref=e39]
+              - paragraph [ref=e40]: Attonbitus sit odio caput quod ater comes talus. Ducimus carbo creo conspergo adsuesco tremo asporto sunt summisse caterva. Socius stipes vel.
+              - text: Read more...
+              - list [ref=e41]:
+                - listitem [ref=e42]: cur
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - link "Fusion" [ref=e45]:
+                - /url: "#/profile/Fusion"
+                - img "Fusion" [ref=e46]
+              - generic [ref=e47]:
+                - link "Fusion" [ref=e48]:
+                  - /url: "#/profile/Fusion"
+                - text: April 7, 2026
+              - button "( 0 )" [ref=e49]:
+                - generic [ref=e50]: ( 0 )
+            - link "Aperiam tremo quidem tempus auxilium usque solum ciminatio. Speciosus absorbeo cicuta casso sulum iste thesaurus. Cetera placeat baiulus creber tyrannus appositus calamitas demum. Volup sollicito acer cum. Read more... ceno" [ref=e51]:
+              - /url: "#/article/aperiam-tremo-quidem-tempus-auxilium-usque-solum-ciminatio-"
+              - heading "Aperiam tremo quidem tempus auxilium usque solum ciminatio." [level=1] [ref=e52]
+              - paragraph [ref=e53]: Speciosus absorbeo cicuta casso sulum iste thesaurus. Cetera placeat baiulus creber tyrannus appositus calamitas demum. Volup sollicito acer cum.
+              - text: Read more...
+              - list [ref=e54]:
+                - listitem [ref=e55]: ceno
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - link "Fusion" [ref=e58]:
+                - /url: "#/profile/Fusion"
+                - img "Fusion" [ref=e59]
+              - generic [ref=e60]:
+                - link "Fusion" [ref=e61]:
+                  - /url: "#/profile/Fusion"
+                - text: April 7, 2026
+              - button "( 0 )" [ref=e62]:
+                - generic [ref=e63]: ( 0 )
+            - link "Caecus adiuvo depopulo. Amiculum adhuc ulterius sono theologus cometes bardus vinco statim. Somnus supplanto facere amissio laudantium. Vulgaris crastinus torrens cohibeo subito textilis spoliatio villa. Read more... degusto" [ref=e64]:
+              - /url: "#/article/caecus-adiuvo-depopulo-"
+              - heading "Caecus adiuvo depopulo." [level=1] [ref=e65]
+              - paragraph [ref=e66]: Amiculum adhuc ulterius sono theologus cometes bardus vinco statim. Somnus supplanto facere amissio laudantium. Vulgaris crastinus torrens cohibeo subito textilis spoliatio villa.
+              - text: Read more...
+              - list [ref=e67]:
+                - listitem [ref=e68]: degusto
+          - navigation "Pagination" [ref=e69]:
+            - listitem [ref=e70]:
+              - button "Previous page" [disabled]
+            - listitem [ref=e71]:
+              - button "Page 1 is your current page" [ref=e72]: "1"
+            - listitem [ref=e73]:
+              - button "Page 2" [ref=e74]: "2"
+            - listitem [ref=e75]:
+              - button "Page 3" [ref=e76]: "3"
+            - listitem [ref=e77]:
+              - button "..." [ref=e78]
+            - listitem [ref=e79]:
+              - button "Page 11881" [ref=e80]: "11881"
+            - listitem [ref=e81]:
+              - button "Page 11882" [ref=e82]: "11882"
+            - listitem [ref=e83]:
+              - button "Page 11883" [ref=e84]: "11883"
+            - listitem [ref=e85]:
+              - button "Next page"
+        - complementary [ref=e86]:
+          - generic [ref=e87]:
+            - heading "Popular Tags" [level=6] [ref=e88]
+            - paragraph [ref=e90]: Loading tags...
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - link "conduit" [ref=e93]:
+        - /url: "#/"
+      - generic [ref=e94]:
+        - text: An interactive learning project from
+        - link "Thinkster" [ref=e95]:
+          - /url: https://thinkster.io
+        - text: . Code & design licensed under MIT.
+      - list [ref=e96]:
+        - listitem [ref=e97]:
+          - link "Source code" [ref=e98]:
+            - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+            - text: Source code
+```
