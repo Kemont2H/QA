@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [main, master]
   workflow_dispatch:
-# Сама джобы
+# Сама джоба
 jobs:
   #название джобы
   test:
