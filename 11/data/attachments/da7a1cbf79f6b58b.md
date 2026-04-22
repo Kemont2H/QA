@@ -1,0 +1,143 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic:
+        - link "conduit" [ref=e5] [cursor=pointer]:
+          - /url: "#/"
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link " Source code" [ref=e8] [cursor=pointer]:
+              - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+              - generic [ref=e9]: 
+              - text: Source code
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link " Home" [ref=e12] [cursor=pointer]:
+              - /url: "#/"
+              - generic [ref=e13]: 
+              - text: Home
+          - listitem [ref=e14]:
+            - link " Login" [ref=e15] [cursor=pointer]:
+              - /url: "#/login"
+              - generic [ref=e16]: 
+              - text: Login
+          - listitem [ref=e17]:
+            - link "Sign up" [ref=e18] [cursor=pointer]:
+              - /url: "#/register"
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - heading "conduit" [level=1] [ref=e23]
+        - paragraph [ref=e24]: A place to share your knowledge.
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - button "Global Feed" [ref=e31]
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - link "Diane Moriarti" [ref=e34] [cursor=pointer]:
+                - /url: "#/profile/Diane Moriarti"
+                - img "Diane Moriarti" [ref=e35]
+              - generic [ref=e36]:
+                - link "Diane Moriarti" [ref=e37] [cursor=pointer]:
+                  - /url: "#/profile/Diane Moriarti"
+                - generic [ref=e38]: April 1, 2026
+              - button " ( 0 )" [ref=e39] [cursor=pointer]:
+                - generic [ref=e40]: 
+                - generic [ref=e41]: ( 0 )
+            - link "Adfero combibo tunc clibanus cognatus careo. Atqui socius accendo vomica demonstro aeternus labore ambulo tolero. Artificiose ventito adsidue. Tantum cedo temporibus neque aeger cuius averto. Read more... ambitus comis vigilo" [ref=e42] [cursor=pointer]:
+              - /url: "#/article/adfero-combibo-tunc-clibanus-cognatus-careo-"
+              - heading "Adfero combibo tunc clibanus cognatus careo." [level=1] [ref=e43]
+              - paragraph [ref=e44]: Atqui socius accendo vomica demonstro aeternus labore ambulo tolero. Artificiose ventito adsidue. Tantum cedo temporibus neque aeger cuius averto.
+              - text: Read more...
+              - list [ref=e45]:
+                - listitem [ref=e46]: ambitus
+                - listitem [ref=e47]: comis
+                - listitem [ref=e48]: vigilo
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - link "Eloise Moriarti" [ref=e51] [cursor=pointer]:
+                - /url: "#/profile/Eloise Moriarti"
+                - img "Eloise Moriarti" [ref=e52]
+              - generic [ref=e53]:
+                - link "Eloise Moriarti" [ref=e54] [cursor=pointer]:
+                  - /url: "#/profile/Eloise Moriarti"
+                - generic [ref=e55]: April 1, 2026
+              - button " ( 0 )" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+                - generic [ref=e58]: ( 0 )
+            - link "Absens comes damno depereo tabella adfero carcer. Curvo quis titulus deduco. Tempore tempus condico virtus illo vesica vallum tantum terra. Cibo acceptus compono cauda ara amita. Read more... decretum desparatus torqueo" [ref=e59] [cursor=pointer]:
+              - /url: "#/article/absens-comes-damno-depereo-tabella-adfero-carcer-"
+              - heading "Absens comes damno depereo tabella adfero carcer." [level=1] [ref=e60]
+              - paragraph [ref=e61]: Curvo quis titulus deduco. Tempore tempus condico virtus illo vesica vallum tantum terra. Cibo acceptus compono cauda ara amita.
+              - text: Read more...
+              - list [ref=e62]:
+                - listitem [ref=e63]: decretum
+                - listitem [ref=e64]: desparatus
+                - listitem [ref=e65]: torqueo
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - link "Angelita Moriarti" [ref=e68] [cursor=pointer]:
+                - /url: "#/profile/Angelita Moriarti"
+                - img "Angelita Moriarti" [ref=e69]
+              - generic [ref=e70]:
+                - link "Angelita Moriarti" [ref=e71] [cursor=pointer]:
+                  - /url: "#/profile/Angelita Moriarti"
+                - generic [ref=e72]: April 1, 2026
+              - button " ( 0 )" [ref=e73] [cursor=pointer]:
+                - generic [ref=e74]: 
+                - generic [ref=e75]: ( 0 )
+            - link "Voluptas pectus usque talio. Apud decretum crustulum. Charisma alter ater. Constans comitatus carpo toties cupressus iure conculco talis. Read more... cauda cimentarius curtus" [ref=e76] [cursor=pointer]:
+              - /url: "#/article/voluptas-pectus-usque-talio-"
+              - heading "Voluptas pectus usque talio." [level=1] [ref=e77]
+              - paragraph [ref=e78]: Apud decretum crustulum. Charisma alter ater. Constans comitatus carpo toties cupressus iure conculco talis.
+              - text: Read more...
+              - list [ref=e79]:
+                - listitem [ref=e80]: cauda
+                - listitem [ref=e81]: cimentarius
+                - listitem [ref=e82]: curtus
+          - navigation "Pagination" [ref=e83]:
+            - listitem [ref=e84]:
+              - button "Previous page" [disabled]:
+                - generic: 
+            - listitem [ref=e85]:
+              - button "Page 1 is your current page" [ref=e86]: "1"
+            - listitem [ref=e87]:
+              - button "Page 2" [ref=e88] [cursor=pointer]: "2"
+            - listitem [ref=e89]:
+              - button "Page 3" [ref=e90] [cursor=pointer]: "3"
+            - listitem [ref=e91]:
+              - button "..." [ref=e92] [cursor=pointer]
+            - listitem [ref=e93]:
+              - button "Page 11792" [ref=e94] [cursor=pointer]: "11792"
+            - listitem [ref=e95]:
+              - button "Page 11793" [ref=e96] [cursor=pointer]: "11793"
+            - listitem [ref=e97]:
+              - button "Page 11794" [ref=e98] [cursor=pointer]: "11794"
+            - listitem [ref=e99]:
+              - button "Next page" [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]: 
+        - complementary [ref=e102]:
+          - generic [ref=e103]:
+            - heading "Popular Tags" [level=6] [ref=e104]
+            - paragraph [ref=e106]: Loading tags...
+  - contentinfo [ref=e107]:
+    - generic [ref=e108]:
+      - link "conduit" [ref=e109] [cursor=pointer]:
+        - /url: "#/"
+      - generic [ref=e110]:
+        - text: An interactive learning project from
+        - link "Thinkster" [ref=e111] [cursor=pointer]:
+          - /url: https://thinkster.io
+        - text: . Code & design licensed under MIT.
+      - list [ref=e112]:
+        - listitem [ref=e113]:
+          - link " Source code" [ref=e114] [cursor=pointer]:
+            - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+            - generic [ref=e115]: 
+            - text: Source code
+```

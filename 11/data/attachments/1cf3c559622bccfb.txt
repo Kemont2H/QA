@@ -1,0 +1,21 @@
+{
+  connection: 'keep-alive',
+  'access-control-allow-credentials': 'true',
+  'access-control-allow-headers': '*',
+  'access-control-allow-methods': '*',
+  'access-control-allow-origin': '*',
+  'access-control-expose-headers': '*',
+  'content-type': 'text/html;charset=utf-8',
+  date: 'Fri, 10 Apr 2026 04:37:17 GMT',
+  location: '/gui/challenges/d4aeb437-32dd-4fe2-921e-fc8672823121',
+  server: 'railway-edge',
+  'x-challenger': 'd4aeb437-32dd-4fe2-921e-fc8672823121',
+  'x-railway-edge': 'railway/europe-west4-drams3a',
+  'x-railway-request-id': 'sqMZKp9iTO-dhvdw8Hk9cQ',
+  'x-railway-cdn-edge': 'fastly/cache-fra-eddf8230155-FRA',
+  'x-cache': 'MISS',
+  'x-cache-hits': '0',
+  'x-served-by': 'cache-fra-eddf8230155-FRA',
+  'transfer-encoding': 'chunked'
+}
+d4aeb437-32dd-4fe2-921e-fc8672823121
