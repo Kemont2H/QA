@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Playwright-Page-Object-Model
 
 =======
