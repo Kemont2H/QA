@@ -1,7 +1,3 @@
-
-Playwright-Page-Object-Model
-
-=======
 # Playwright-Page-Object-Model + Jenkins/Allure
 
 JS+Playwright
