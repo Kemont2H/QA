@@ -1,0 +1,1 @@
+A snapshot doesn't exist at C:\Users\user\repositories\QA\QA\tests\visual.test.js-snapshots\Visual-Basic-screenshot-element-1-firefox-win32.png, writing actual.

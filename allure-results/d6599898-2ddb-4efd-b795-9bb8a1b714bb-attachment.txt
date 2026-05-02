@@ -1,0 +1,2 @@
+A snapshot doesn't exist at C:\Users\user\repositories\QA\QA\tests\visual.test.js-snapshots\Visual-Basic-screenshot-element-with-1-chromium-win32.png, writing actual.
+A snapshot doesn't exist at C:\Users\user\repositories\QA\QA\tests\visual.test.js-snapshots\Visual-Basic-screenshot-element-with-2-chromium-win32.png, writing actual.
